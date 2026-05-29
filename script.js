@@ -8,18 +8,18 @@ const projects = [
     accent: "#0f766e",
   },
   {
-    name: "Budget Tracker",
+    name: "Project 2 -- Coming Soon",
     description:
-      "A clean personal finance dashboard for tracking spending categories and monthly saving targets.",
-    status: "Private beta",
+      "Coming Soon...",
+    status: "Live project",
     registerUrl: "https://example.com/register-budget-tracker",
     accent: "#d35f4c",
   },
   {
-    name: "Portfolio Builder",
+    name: "Project 3 -- Coming Soon",
     description:
-      "A simple frontend tool for turning project notes, screenshots, and links into a shareable portfolio page.",
-    status: "Waitlist available",
+      "Coming Soon...",
+    status: "Live project",
     registerUrl: "https://example.com/register-portfolio-builder",
     accent: "#c78c24",
   },
