@@ -43,6 +43,16 @@ footer {
   margin-inline: auto;
 }
 
+.header-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(247, 248, 243, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+}
+
 .site-header {
   display: flex;
   align-items: center;
@@ -399,7 +409,7 @@ footer p {
   .site-header,
   main,
   footer {
-    width: min(100% - 28px, 1120px);
+    width: min(calc(100% - 28px), 1120px);
   }
 
   h1 {
