@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jasmine | Personal Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=2" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Go to home">
+        <span class="brand-mark">J</span>
+        <span>Jasmine</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Personal Website</p>
+          <h1>Projects, experiments, and useful things I am building.</h1>
+          <p class="hero-text">
+            A simple home for my personal projects. Each project has its own
+            registration page, so visitors can jump straight into the one they
+            want.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="mailto:chiamin2828@gmail.com">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-photo" aria-label="Photo section">
+          <!-- Replace src with your own photo file path -->
+          <img src="your-photo.jpg" alt="Your photo" />
+        </div>
+      </section>
+
+      <section class="section-header" id="projects">
+        <p class="eyebrow">Projects</p>
+        <h2>Choose a project to register</h2>
+      </section>
+
+      <section class="project-grid" id="projectGrid" aria-live="polite"></section>
+
+      <section class="contact" id="contact">
+        <p class="eyebrow">Contact</p>
+        <h2>Want to collaborate or ask about a project?</h2>
+        <a class="button primary" href="mailto:chiamin2828@gmail.com">Send Email</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built by Jasmine.</p>
+    </footer>
+
+    <script src="script.js?v=2"></script>
+  </body>
+</html>
