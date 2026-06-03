@@ -5,7 +5,8 @@ const projects = [
       "A full-stack blog post management website for creating, editing, and sharing posts.",
     status: "Live project",
     registerUrl: "https://soulshare-blog.vercel.app/",
-    accent: "#0f766e",
+    accent: "#ff7437",
+    icon: "bi bi-person-arms-up",
   },
   {
     name: "Project 2 -- Coming Soon",
@@ -32,7 +33,7 @@ projectGrid.innerHTML = projects
     (project, index) => `
       <article class="project-card">
         <span class="project-icon" style="--icon-bg: ${project.accent}">
-          ${index + 1}
+          ${project.icon ? `<i class="${project.icon}" style="font-size:1.4rem"></i>` : index + 1}
         </span>
         <h3>${project.name}</h3>
         <p>${project.description}</p>
