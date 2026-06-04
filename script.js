@@ -14,8 +14,8 @@ const projects = [
       "A React and TypeScript expense-splitting app for groups, with balances, settlement suggestions, and receipt scanning.",
     status: "Live project",
     registerUrl: "https://fairshare-6z2.pages.dev/",
-    accent: "#2563eb",
-    icon: "bi bi-receipt",
+    accent: "#b84f00",
+    icon: "bi bi-cash-coin",
   },
   {
     name: "Project 3 -- Coming Soon",
