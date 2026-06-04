@@ -9,12 +9,13 @@ const projects = [
     icon: "bi bi-person-arms-up",
   },
   {
-    name: "Project 2 -- Coming Soon",
+    name: "FairShare",
     description:
-      "Coming Soon...",
+      "A React and TypeScript expense-splitting app for groups, with balances, settlement suggestions, and receipt scanning.",
     status: "Live project",
-    registerUrl: "https://example.com/register-budget-tracker",
-    accent: "#d35f4c",
+    registerUrl: "https://fairshare-6z2.pages.dev/",
+    accent: "#2563eb",
+    icon: "bi bi-receipt",
   },
   {
     name: "Project 3 -- Coming Soon",
