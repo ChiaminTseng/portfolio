@@ -280,7 +280,7 @@ h2 {
 }
 
 .showcase-card:nth-of-type(3) i {
-  background: var(--blue);
+  background: #b84f00;
 }
 
 .showcase-card strong,
