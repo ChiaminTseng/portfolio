@@ -1,0 +1,18 @@
+# Jasminiverse
+
+Personal portfolio website for Jasmine.
+
+## Live Website
+
+[https://jasminiverse.vercel.app/](https://jasminiverse.vercel.app/)
+
+## Featured Projects
+
+- [SoulShare Blog](https://soulshare-blog.vercel.app/) - A full-stack blog post management website for creating, editing, and sharing posts.
+- [FairShare](https://fairshare-6z2.pages.dev/) - A React and TypeScript expense-splitting app for groups, with balances, settlement suggestions, and receipt scanning.
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
