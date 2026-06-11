@@ -11,7 +11,7 @@ const projects = [
   {
     name: "FairShare",
     description:
-      "Built a receipt capture workflow using Tesseract.js OCR, with image normalization, editable extracted text, and automatic total detection for expense entry.",
+      "A React and TypeScript app for recording shared expenses, tracking balances, and settling costs with others, with OCR-assisted receipt capture.",
     status: "Live project",
     registerUrl: "https://fairshare-6z2.pages.dev/",
     accent: "#b84f00",
