@@ -11,20 +11,13 @@ const projects = [
   {
     name: "FairShare",
     description:
-      "A React and TypeScript expense-splitting app for groups, with balances, settlement suggestions, and receipt scanning.",
+      "Built a receipt capture workflow using Tesseract.js OCR, with image normalization, editable extracted text, and automatic total detection for expense entry.",
     status: "Live project",
     registerUrl: "https://fairshare-6z2.pages.dev/",
     accent: "#b84f00",
     icon: "bi bi-cash-coin",
   },
-  {
-    name: "Project 3 -- Coming Soon",
-    description:
-      "Coming Soon...",
-    status: "Live project",
-    registerUrl: "https://example.com/register-portfolio-builder",
-    accent: "#c78c24",
-  },
+
 ];
 
 const projectGrid = document.querySelector("#projectGrid");

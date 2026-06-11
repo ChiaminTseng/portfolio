@@ -1,6 +1,6 @@
 # Jasminiverse
 
-Personal portfolio website for Jasmine.
+Personal portfolio website for Jasmine, highlighting full-stack projects, backend features, and practical AI tool integration.
 
 ## Live Website
 
@@ -9,7 +9,7 @@ Personal portfolio website for Jasmine.
 ## Featured Projects
 
 - [SoulShare Blog](https://soulshare-blog.vercel.app/) - A full-stack blog post management website for creating, editing, and sharing posts.
-- [FairShare](https://fairshare-6z2.pages.dev/) - A React and TypeScript expense-splitting app for groups, with balances, settlement suggestions, and receipt scanning.
+- [FairShare](https://fairshare-6z2.pages.dev/) - Built a receipt capture workflow using Tesseract.js OCR, with image normalization, editable extracted text, and automatic total detection for expense entry.
 
 ## Built With
 
