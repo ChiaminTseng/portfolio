@@ -6,7 +6,7 @@ const projects = [
     registerUrl: "https://soulshare-blog.vercel.app/",
     accent: "#ff7437",
     icon: "bi bi-person-arms-up",
-    tags: ["Full-stack", "Blog CMS", "Deployment"],
+    tags: ["Full-stack Blog", "React", "Node.js"],
   },
   {
     name: "FairShare",
