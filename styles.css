@@ -85,6 +85,12 @@ a {
   padding-top: 10px;
 }
 
+.about-card p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
 .education-list span,
 .education-list small {
   color: var(--muted);
