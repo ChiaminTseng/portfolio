@@ -43,7 +43,7 @@ a {
 
 .site-shell {
   display: grid;
-  grid-template-columns: 300px minmax(0, 1fr);
+  grid-template-columns: 260px minmax(0, 1fr);
   gap: 44px;
   width: min(1220px, calc(100% - 44px));
   margin-inline: auto;
@@ -85,13 +85,6 @@ a {
   padding-top: 10px;
 }
 
-.profile-summary h1 {
-  margin: 0 0 14px;
-  font-size: 1.85rem;
-  line-height: 1.08;
-}
-
-.profile-summary p,
 .education-list span,
 .education-list small {
   color: var(--muted);
