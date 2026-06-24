@@ -381,7 +381,7 @@ p {
     transform 180ms ease;
 }
 
-.project-card:hover .project-open {
+.project-open:hover {
   background: var(--accent);
   color: #fff;
   transform: rotate(8deg) scale(1.04);
