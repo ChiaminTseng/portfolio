@@ -11,105 +11,249 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-    <link rel="stylesheet" href="styles.css?v=4" />
+    <link rel="stylesheet" href="styles.css?v=10" />
   </head>
   <body>
-    <div class="header-bar">
-      <header class="site-header">
-        <a class="brand" href="#top" aria-label="Go to home">
+    <header class="top-nav-bar">
+      <nav class="content-nav" aria-label="Page navigation">
+        <a class="brand" href="#top" aria-label="Go to top">
           <span class="brand-mark">J</span>
           <span>Jasmine</span>
         </a>
-        <nav aria-label="Primary navigation">
-          <a href="#focus">Focus</a>
+        <div class="nav-links">
           <a href="#projects">Projects</a>
+          <a href="#tools">Tools</a>
+          <a href="#journey">Journey</a>
           <a href="#contact">Contact</a>
-        </nav>
-      </header>
+        </div>
+      </nav>
+    </header>
+
+    <div class="site-shell">
+      <aside class="sidebar" aria-label="Profile sidebar">
+        <section class="sidebar-section profile-summary">
+          <p class="eyebrow">About Me</p>
+          <h1>Full-stack learner building useful web apps.</h1>
+          <p>
+            I use personal projects to practise the full product loop: clean UI,
+            frontend state, backend logic, data handling, deployment, and real
+            user workflows.
+          </p>
+        </section>
+
+        <section class="sidebar-section">
+          <div class="icon-links" aria-label="Profile links">
+            <a href="https://github.com/ChiaminTseng" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/chia-min-jasmine-tseng-b7038a20a" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:chiamin2828@gmail.com" aria-label="Email">
+              <i class="bi bi-envelope"></i>
+            </a>
+          </div>
+        </section>
+
+        <section class="sidebar-section">
+          <p class="eyebrow">Education</p>
+          <div class="education-list">
+            <article>
+              <strong>Master of Computing</strong>
+              <span>Computer Science Major</span>
+              <small>Curtin University | Perth, Australia</small>
+              <small>2024 - Jun 2026</small>
+            </article>
+            <article>
+              <strong>Bachelor of Information and Finance Management</strong>
+              <span>National Taipei University of Technology | Taiwan</span>
+              <small>2017 - 2021</small>
+            </article>
+          </div>
+        </section>
+      </aside>
+
+      <main class="content" id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Developer Portfolio</p>
+            <h2>Full-stack web apps shaped around practical everyday use.</h2>
+            <p class="hero-text">
+              My current work includes SoulShare Blog and FairShare. I am improving
+              both live products while shaping a third app around couple memories,
+              shared moments, and relationship journaling.
+            </p>
+          </div>
+          <div class="hero-showcase" aria-label="Project dashboard preview">
+            <div class="showcase-top">
+              <span>Currently shipping</span>
+              <strong>03</strong>
+            </div>
+            <div class="showcase-card active">
+              <i class="bi bi-person-arms-up"></i>
+              <div>
+                <strong>SoulShare Blog</strong>
+                <span>Live full-stack project</span>
+              </div>
+            </div>
+            <div class="showcase-card">
+              <i class="bi bi-cash-coin"></i>
+              <div>
+                <strong>FairShare</strong>
+                <span>Full-stack app with OCR-assisted receipt flow</span>
+              </div>
+            </div>
+            <div class="showcase-card">
+              <i class="bi bi-graph-up-arrow"></i>
+              <div>
+                <strong>Perth CPI Tracker</strong>
+                <span>Data dashboard live on Cloudflare</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-header" id="projects">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected project work</h2>
+        </section>
+
+        <section class="project-grid" id="projectGrid" aria-live="polite"></section>
+
+        <section class="tools-section" id="tools">
+          <div class="section-header compact">
+            <p class="eyebrow">Tools</p>
+            <h2>Tools I use across projects</h2>
+          </div>
+          <div class="tool-groups">
+            <article class="tool-group">
+              <h3>Frontend</h3>
+              <div class="tool-grid">
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/html5" alt="" /> HTML</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/css" alt="" /> CSS</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/javascript" alt="" /> JavaScript</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/typescript" alt="" /> TypeScript</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/react" alt="" /> React</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/reactrouter" alt="" /> React Router</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/bootstrap" alt="" /> Bootstrap / React Bootstrap</span>
+                <span class="tool-item icons"><i class="bi bi-bootstrap"></i> Bootstrap Icons</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/vite" alt="" /> Vite</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/chartdotjs" alt="" /> Chart.js</span>
+                <span class="tool-item storage"><i class="bi bi-device-hdd"></i> LocalStorage</span>
+              </div>
+            </article>
+
+            <article class="tool-group">
+              <h3>Backend & APIs</h3>
+              <div class="tool-grid">
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/nodedotjs" alt="" /> Node.js</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/express/000000" alt="" /> Express.js</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/axios" alt="" /> Axios</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/socketdotio/010101" alt="" /> Socket.IO</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/passport" alt="" /> Passport.js</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/jsonwebtokens" alt="" /> JWT Auth</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/google" alt="" /> Google OAuth</span>
+                <span class="tool-item upload"><i class="bi bi-upload"></i> Multer</span>
+                <span class="tool-item security"><i class="bi bi-shield-lock"></i> bcrypt</span>
+                <span class="tool-item validation"><i class="bi bi-check2-square"></i> Joi Validation</span>
+              </div>
+            </article>
+
+            <article class="tool-group">
+              <h3>Database & Data Engineering</h3>
+              <div class="tool-grid">
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/python" alt="" /> Python</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/pandas" alt="" /> pandas</span>
+                <span class="tool-item excel"><img src="https://cdn.simpleicons.org/microsoftexcel" alt="" /> Excel / openpyxl</span>
+                <span class="tool-item chart"><i class="bi bi-bar-chart-line"></i> Matplotlib</span>
+                <span class="tool-item sql"><i class="bi bi-database"></i> SQL Queries</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/postgresql" alt="" /> PostgreSQL</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/neon" alt="" /> Neon Database</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/mongodb" alt="" /> MongoDB Atlas</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/mongoose" alt="" /> Mongoose</span>
+                <span class="tool-item orm"><i class="bi bi-diagram-3"></i> Drizzle ORM</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/duckdb" alt="" /> DuckDB</span>
+              </div>
+            </article>
+
+            <article class="tool-group">
+              <h3>Mobile, OCR & Internationalisation</h3>
+              <div class="tool-grid">
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/react" alt="" /> React Native</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/expo/000020" alt="" /> Expo</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/expo/000020" alt="" /> EAS Build</span>
+                <span class="tool-item ai"><i class="bi bi-stars"></i> Tesseract.js OCR</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/i18next" alt="" /> i18next</span>
+              </div>
+            </article>
+
+            <article class="tool-group">
+              <h3>Testing, Deployment & App</h3>
+              <div class="tool-grid">
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/pytest" alt="" /> pytest</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/vercel/000000" alt="" /> Vercel</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/render" alt="" /> Render</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/cloudflare" alt="" /> Cloudflare Pages</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/android" alt="" /> Android Demo</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/androidstudio" alt="" /> Android Studio</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/docker" alt="" /> Docker Compose</span>
+              </div>
+            </article>
+
+            <article class="tool-group">
+              <h3>General Tools</h3>
+              <div class="tool-grid">
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/npm" alt="" /> npm</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/git" alt="" /> Git</span>
+                <span class="tool-item"><img src="https://cdn.simpleicons.org/github/181717" alt="" /> GitHub</span>
+                <span class="tool-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="" /> VS Code</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="journey-section" id="journey">
+          <div class="section-header compact">
+            <p class="eyebrow">Journey</p>
+            <h2>What I am building toward</h2>
+          </div>
+          <div class="timeline">
+            <article>
+              <span>01</span>
+              <div>
+                <strong>Built SoulShare Blog</strong>
+                <p>A full-stack blog management project for creating, editing, and sharing posts.</p>
+              </div>
+            </article>
+            <article>
+              <span>02</span>
+              <div>
+                <strong>Launched FairShare</strong>
+                <p>An expense-splitting app with shared balances and OCR-assisted receipt capture.</p>
+              </div>
+            </article>
+            <article>
+              <span>03</span>
+              <div>
+                <strong>Planning the next app</strong>
+                <p>A couple memories app for recording dates, milestones, photos, notes, and shared life moments.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="contact" id="contact">
+          <p class="eyebrow">Contact</p>
+          <h2>Want to collaborate or ask about a project?</h2>
+          <a class="button primary" href="mailto:chiamin2828@gmail.com">Send Email</a>
+        </section>
+
+        <footer>
+          <p>Built by Jasmine.</p>
+        </footer>
+      </main>
     </div>
 
-    <main id="top">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">Jasmine's Personal Website</p>
-          <h1>Full-stack web apps with backend logic and practical AI tool integration.</h1>
-          <p class="hero-text">
-            I build web apps that connect clean interfaces with real product
-            logic, from blog management systems to tools for shared expenses,
-            receipt capture workflows, and everyday productivity.
-          </p>
-          <div class="hero-tags" aria-label="Skills and focus areas">
-            <span><i class="bi bi-window-sidebar"></i> Frontend</span>
-            <span><i class="bi bi-hdd-network"></i> Backend</span>
-            <span><i class="bi bi-cpu"></i> AI tool integration</span>
-          </div>
-          <div class="hero-actions">
-            <a class="button primary" href="#projects">View Projects</a>
-            <a class="button secondary" href="mailto:chiamin2828@gmail.com">Contact Me</a>
-          </div>
-        </div>
-        <div class="hero-showcase" aria-label="Project dashboard preview">
-          <div class="showcase-top">
-            <span>Project workspace</span>
-            <strong>02</strong>
-          </div>
-          <div class="showcase-card active">
-            <i class="bi bi-person-arms-up"></i>
-            <div>
-              <strong>SoulShare Blog</strong>
-              <span>Live full-stack project</span>
-            </div>
-          </div>
-          <div class="showcase-card">
-            <i class="bi bi-cash-coin"></i>
-            <div>
-              <strong>FairShare</strong>
-              <span>Full-stack app with OCR-assisted receipt flow</span>
-            </div>
-          </div>
-          <div class="showcase-meter">
-            <span>Building full-stack projects with backend APIs, data-backed features, and practical AI tool integration</span>
-            <div><span style="width: 72%"></span></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="focus-band" id="focus" aria-label="Current focus">
-        <article>
-          <i class="bi bi-code-slash"></i>
-          <strong>Frontend</strong>
-          <span>Responsive layouts, React, TypeScript, and polished UI flows.</span>
-        </article>
-        <article>
-          <i class="bi bi-hdd-network"></i>
-          <strong>Backend</strong>
-          <span>APIs, authentication, database-backed features, and deployments.</span>
-        </article>
-        <article>
-          <i class="bi bi-stars"></i>
-          <strong>Product Thinking</strong>
-          <span>Useful MVPs with clear actions, real links, and user-friendly details.</span>
-        </article>
-      </section>
-
-      <section class="section-header" id="projects">
-        <p class="eyebrow">Projects</p>
-        <h2>Selected project work</h2>
-      </section>
-
-      <section class="project-grid" id="projectGrid" aria-live="polite"></section>
-
-      <section class="contact" id="contact">
-        <p class="eyebrow">Contact</p>
-        <h2>Want to collaborate or ask about a project?</h2>
-        <a class="button primary" href="mailto:chiamin2828@gmail.com">Send Email</a>
-      </section>
-    </main>
-
-    <footer>
-      <p>Built by Jasmine.</p>
-    </footer>
-
-    <script src="script.js?v=3"></script>
+    <script src="script.js?v=5"></script>
   </body>
 </html>
